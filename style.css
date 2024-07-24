@@ -1,0 +1,442 @@
+.{
+    
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    width:100%;
+    height: 100vh;
+    background-image: url(images/nhub\ cover\ img.jpg);
+    background-size: cover;
+    position: ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    font-family: sans-serif; 
+}
+ .blackgound{
+width: 500rem;
+height: fit-content;
+}
+main{
+
+}
+.upper{
+    width:100%;
+    height: 100vh;
+    
+    position:relative ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar{
+    height: 0.0%;
+    width: 85%;
+    margin-top: auto;
+    margin-left: 60px;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar li:hover{
+    opacity: 0.2;
+    text-decoration: red;
+    transition: 0.7s;
+    opacity: 5s;
+    
+}
+.logo{
+    width: 7%;
+    padding-left: 3rem;
+    padding-right:7rem;
+    cursor: pointer;
+    width: ;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar  ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+.middle h1{
+    text-align: center;
+    color: white;
+    size: solid;
+    text-decoration: none;
+}
+.middle h1{
+    font-size: 45px;
+    width: 100%;
+    position: absolute;
+    top: 40%;background-color: transparent;
+    
+    
+    width: 17rem;
+    height: 6rem;
+    text-decoration: none;
+    margin-left: 32rem;
+    margin-right: 40rem;
+    align-content: center;
+    
+    border: 15px; ;
+    border-style: ridge;
+    border-radius:none;
+    cursor: pointer;
+}
+.middle{
+    text-decoration: none;
+    color: white;
+  
+}
+.nhub h2{
+    padding-top: 5rem;
+    margin: 0rem 23rem 0rem;
+    font-size: 1.5rem;
+    color: rgb(32, 30, 30);
+    font-family: sans-serif;
+}
+.nhub p{
+    margin-left: 0px 20px 20px 20px;
+    text-align-last: center;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    align-content: center;
+    justify-content: center;
+    color: rgb(87, 87, 86);
+    font-size: 1rem;
+    font-weight:5rem;
+    font-family: sans-serif;
+}
+.staffs h4{
+    font-size: 1.3rem;
+    color: rgb(32, 30, 30);
+    font-family: sans-serif;
+    padding-left: 1rem;
+    font-style: unset;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-top: 14rem;
+    padding-bottom: 8rem;
+    text-align: center;
+}
+.text h2{
+    font-size: 2rem;
+    color:black;
+    margin-bottom: 0;
+
+}
+.text p{
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 0rem;
+}
+.our h2{
+    padding-left: 35rem;
+    justify-content: center;
+}
+.our p{
+    padding-left: 15rem;
+    align-content: center;
+
+}
+.staffs{
+    font-size: 2rem;
+    color: black;
+    align-content: center;
+    justify-content: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+background-color: white;
+}
+
+li button{
+    background-color: transparent;
+    color: white;
+    width: 7rem;
+    height: 2rem;
+    border-color:  white ;
+    border-style:solid;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+li button:hover{
+    transition: 1s;
+    background-color: blue;
+    border-color: blue;
+    
+    opacity: 3s;
+}
+li button:active{
+    background-color: rgb(9, 130, 201);
+}
+.staff-detail img{
+    border-radius: 2rems;
+}
+
+.staff-detail{
+    background-color: rgba(245, 241, 241, 0.808);
+    border-color: brown;
+    color: rgb(8, 8, 8);
+    padding: 1rem  1rem;
+    margin: 15px;
+    width: 13rem;
+    
+}
+.staff-detail img{
+    width: 100%;
+    border-radius: 0.3rem;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 1rem;
+   
+
+}
+
+.s-d{
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card-container .management h3{
+    
+    text-align: end;
+    font-size: 1.7rem;
+    align-items: center;
+    margin-left: 2rem;
+    padding: 3rem;
+}
+.card-container .management p{
+    font-size: 1.3rem;    
+}
+.card-container .management .icon>div{
+display: flex;
+height:5px;
+width: 5px;
+border-radius: 7px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 28px;
+background-color:hsl(229, 57%, 11%);
+}
+
+.last .back{
+    background-size: cover;
+    padding-right: 15rem;
+    width:100%;
+    height: 60vh;
+    background-image:url(images/nhub\ last\ img.jpg);
+    background-repeat: no-repeat;
+    
+    background: ;
+    
+
+    
+}
+.last .v-a{
+    margin-top: 2.3rem;
+    margin-left: 14rem;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: white;
+
+    
+}
+
+.last img {
+    width: 100%;
+    image-resolution: 30%;
+}
+
+.center button{
+    background-color: transparent;
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    border-color:  white ;
+    border-style:solid;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+.last h1{
+    color: white;
+}
+.center button:hover{
+    transition: 1.2s;
+    background-color: blue;
+    border-color: blue;
+       
+}
+
+.center button:active{
+    background-color: rgb(41, 164, 221);
+}
+.FINAL-CONTENT{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 19;
+    margin: 4rem;
+    text-decoration: none;
+}
+.FINAL-CONTENT h3{
+    margin-left: 2.2rem;
+    color: rgba(10, 10, 10, 0.829);
+    font-size: 1.5rem;
+}
+
+.s-d h3  .victor{
+    justify-items:center ;
+    font-size: 7rem;
+}
+
+.FINAL-CONTENT a {
+    text-decoration: none;
+    color: #6fb6f8;
+}
+
+.FINAL-CONTENT ul {
+    text-decoration: none;
+    color: ;
+    
+}
+.ending{
+    margin-left: 5rem;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content:flex-start;
+}
+
+footer{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.ending p{
+    margin-left: 5rem;
+
+}
+
+.social-img{
+    display: flex;
+    align-items: center;
+    align-items:center ;
+    justify-content: center;
+    margin-left: 25rem;
+    gap: 2rem;
+    cursor: pointer;
+   
+}
+
+.social-img:hover{
+   color: blue;
+}
+
+.site{
+margin-left: 9rem;
+
+
+}
+ .site a{
+    text-decoration: none;
+    color: rgb(56, 154, 235);
+
+ }
+
+ .site a:hover{
+    color: blue;
+    opacity: 0.7;
+    text-decoration: none;
+    color: rgb(56, 154, 235);
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
